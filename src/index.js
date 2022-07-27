@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from "react-dom/client";
 import App from './App';
 import { ThemeProvider } from 'legion-ui';
-import { agl } from '@legion-theme/agree';
+import { agr } from '@legion-theme/agree';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={agl}>
+    <ThemeProvider theme={agr}>
       <App />
     </ThemeProvider>
   </React.StrictMode>,
